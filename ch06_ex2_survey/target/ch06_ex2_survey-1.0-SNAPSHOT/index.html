@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>Join our email list</h1>
+        <p>To join our email list, enter your name and
+           email address below.</p>
+        <form action="surveyList" method="post">
+            <input type="hidden" name="action" value="add">
+            <label class="pad_top">Email:</label>
+            <input type="email" name="email" ><br>
+            <label class="pad_top">First Name:</label>
+            <input type="text" name="firstName"><br>
+            <label class="pad_top">Last Name:</label>
+            <input type="text" name="lastName" ><br>
+            <label>&nbsp;</label>
+            <div class = "raido-container">
+                <h2>How do you hear about us?</h2><!-- comment -->
+                <input type=radio name="heardFrom" value="Search Engine">Search Engine
+                <input type=radio name="heardFrom" value="World of mouth">World of mouth
+                <input type=radio name="heardFrom" value="Social Media">Social Media
+                <input type=radio name="heardFrom" value="Other">Other
+            </div>
+            
+            <h2>Would you like to receive announcements about  <br> new CDs and special
+                offers
+            </h2>
+            <div class="checkbox-container">
+                
+                <input type="checkbox"  name="yes" value="I'd like that">
+                <label>Yes, I'd like that</label>
+                
+            </div>
+            
+            <div class="contact-container">
+                <label>Please contact me by:</label>
+                <select name="contact" > 
+                  <option value="email">Email</option>
+                  <option value="postal mail">postal mail</option>
+                </select>
+            </div>
+            
+            <label>&nbsp;</label><br>
+            <input type="submit" value = "Submit" id="submit">  
+
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 5em;
+    margin-right: 5em;
+
+}
+h1{
+    color: teal;
+}
+
+label{
+    display: -webkit-inline-box;
+    margin-bottom: 0.7em;
+}
+

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+h1, h2 {
+    color: teal;
+
+}
+.login-container label{
+        float:left;
+        width: 7em;
+        margin-bottom: 0.5em;
+        margin-right:0.5em;
+}
+   
+
+
+input[type="text"]{
+    width: 15em;
+    margin-left: 0.10em;
+    margin-bottom: 0.5em;
+}
+
+input[type="email"]{
+    width: 15em;
+    margin-left: 2.7em;
+    margin-bottom: 0.5em;
+}
+
+.login-container .checkbox-container input[type="checkbox"]{
+    float:left;      
+}
+
+ .login-container .checkbox-container label{
+    width: 20em;
+}
+
+.login-container .contact-container label {
+    width: 10em;
+    margin-right: 1em;
+}
+
+.login-container .contact-container input[type="submit"] {
+    margin-bottom: 0.5em;
+}
+br{
+    clear: both;
+}

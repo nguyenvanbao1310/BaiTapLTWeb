@@ -1,0 +1,4 @@
+com\mycompany\ch06_ex2_survey\resources\JakartaEE10Resource.class
+murach\User\User.class
+murach\Survey\SurveyServlet.class
+com\mycompany\ch06_ex2_survey\JakartaRestConfiguration.class
