@@ -1,0 +1,7 @@
+murach\data\CartDB.class
+com\mycompany\ch07\resources\JakartaEE10Resource.class
+murach\business\Product.class
+murach\business\Items.class
+murach\business\Cart.class
+murach\cart\CartListServlet.class
+com\mycompany\ch07\JakartaRestConfiguration.class
