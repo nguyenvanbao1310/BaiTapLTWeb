@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch06_ex1_email">
+    <Resource name="jdbc/murach"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              username="murach_3j0h_user"
+              password="Cj28I2rjCpE78nu5BDaIr8EIkz9Qbc8v"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://dpg-cs1a0ng8fa8c73cv06og-a.singapore-postgres.render.com:5432/murach_3j0h"/>
+</Context>
