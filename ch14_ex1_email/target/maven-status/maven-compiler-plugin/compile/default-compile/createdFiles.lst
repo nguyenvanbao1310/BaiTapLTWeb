@@ -1,0 +1,7 @@
+murach\email\EmailListServlet.class
+com\mycompany\ch14_ex1_email\JakartaRestConfiguration.class
+com\mycompany\ch14_ex1_email\resources\JakartaEE10Resource.class
+murach\business\User.class
+murach\util\MailUtilLocal.class
+murach\util\MailUtilGmail.class
+murach\data\UserDB.class

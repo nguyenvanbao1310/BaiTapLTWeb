@@ -1,0 +1,6 @@
+murach\data\DBUtil.class
+com\mycompany\jpa\resources\JakartaEE10Resource.class
+murach\business\User.class
+com\mycompany\jpa\JakartaRestConfiguration.class
+murach\admin\UsersServlet.class
+murach\data\UserDB.class
